@@ -12,7 +12,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "VBUtils",
-            targets: ["VBUtils"]),
+            targets: ["VBUtilsWrapper"]),
     ],
     dependencies: [
         .package(url: "https://github.com/matomo-org/matomo-sdk-ios.git", .upToNextMinor(from: "7.7.0")),
