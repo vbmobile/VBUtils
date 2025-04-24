@@ -15,8 +15,8 @@ let package = Package(
             targets: ["VBUtilsWrapper"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/matomo-org/matomo-sdk-ios.git", .upToNextMinor(from: "7.7.0")),
-        .package(url: "https://github.com/auth0/JWTDecode.swift", .upToNextMinor(from: "2.6.0")),
+        .package(url: "https://github.com/vbmobile/matomo-sdk-ios", .exact("7.7.0")),
+        .package(url: "https://github.com/vbmobile/JWTDecode.swift", .exact("2.6.3")),
     ],
 
     targets: [
