@@ -23,8 +23,8 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "VBUtils",
-            url: "https://vbmobileidstorage.blob.core.windows.net/ios/MobileIdSDKiOS/VBUtils/VBUtils-2.0.0.zip",
-            checksum: "204a74aba77547ba71ea4b4a408e4048c9b5c8362d399ae17e35803b5f0599d4"
+            url: "https://vbmobileidstorage.blob.core.windows.net/ios/MobileIdSDKiOS/VBUtils/VBUtils-2.0.1.zip",
+            checksum: "ab35f5b86ce5bc83bbc6967f8d45a3fd4297fd014d11571e37bee024893f9530"
         ),
         .binaryTarget(
             name: "JWTDecode",
