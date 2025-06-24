@@ -23,19 +23,13 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "VBUtils",
-            url: "https://vbmobileidstorage.blob.core.windows.net/ios/MobileIdSDKiOS/VBUtils/VBUtils-2.0.1.zip",
-            checksum: "ab35f5b86ce5bc83bbc6967f8d45a3fd4297fd014d11571e37bee024893f9530"
-        ),
-        .binaryTarget(
-            name: "JWTDecode",
-            url: "https://vbmobileidstorage.blob.core.windows.net/ios/MobileIdSDKiOS/JWTDecode/JWTDecode-2.6.3.zip",
-            checksum: "5642db1982cfd167214a6e1c579fa089bf39f8dda63afefbb47f2fcb303b8ce2"
+            url: "https://vbmobileidstorage.blob.core.windows.net/ios/MobileIdSDKiOS/VBUtils/VBUtils-2.0.2.zip",
+            checksum: "691c5c8ba7747d99c43e9c68d8b2d4142554e8aca9ea289c5e7c97a49988c1ae"
         ),
         .target(
             name: "VBUtilsWrapper",
             dependencies: [
                 .target(name: "VBUtils"),
-                .target(name: "JWTDecode"),
                 .product(name: "MatomoTracker", package: "matomo-sdk-ios"),
             ],
             path: "Sources",
