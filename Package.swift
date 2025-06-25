@@ -24,7 +24,7 @@ let package = Package(
         .binaryTarget(
             name: "VBUtils",
             url: "https://vbmobileidstorage.blob.core.windows.net/ios/MobileIdSDKiOS/VBUtils/VBUtils-2.0.2.zip",
-            checksum: "691c5c8ba7747d99c43e9c68d8b2d4142554e8aca9ea289c5e7c97a49988c1ae"
+            checksum: "50ecc5477b816a1cad58f757f5392a5d08a571b48078ca5669930ec5aa4983de"
         ),
         .target(
             name: "VBUtilsWrapper",
