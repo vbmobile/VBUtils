@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AMAUtils",
-            url: "https://vbmobileidstorage.blob.core.windows.net/ios/AMAUtils/AMAUtils-3.0.0.zip",
-            checksum: "57d6f0e44fe7224ec33c32c509e90756020e1928d0c039ddf9058c71cc8e61f7"
+            url: "https://vbmobileidstorage.blob.core.windows.net/ios/AMAUtils/AMAUtils-3.0.1.zip",
+            checksum: "60e76d8cedd4260c689cd7028a05a6da7cfb4af5836cb11e67769ce1f2e59e16"
         )
     ],
     swiftLanguageModes: [.v5]
